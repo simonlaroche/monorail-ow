@@ -1,0 +1,6 @@
+﻿name: monowrap
+build: msbuild;profile=net40;project=src\monowrap\monowrap.csproj;project=src\monowrap.aspnet.host\monowrap.aspnet.host.csproj
+build: msbuild;profile=net35;project=src\monowrap.commands\monowrap.commands.csproj
+build: files; file= host -> src/monowrap.aspnet.host/Global.asax; file=host -> src/monowrap.aspnet.host/*.config; file= host/bin -> src/monowrap.aspnet.host/bin/*.dll;
+depends: openwrap anchored
+depends: monorail

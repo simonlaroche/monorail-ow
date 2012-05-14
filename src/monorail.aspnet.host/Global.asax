@@ -1,0 +1,1 @@
+﻿<%@ Application Inherits="monowrap.aspnet.host.Global,monowrap.aspnet.host" %>

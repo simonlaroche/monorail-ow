@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monorail.ow", "monorail.ow\monorail.ow.csproj", "{7EBF2094-C8AB-4495-964E-B4A20136E382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monorail.aspnet.host", "monorail.aspnet.host\monorail.aspnet.host.csproj", "{87C1D419-CC74-4E85-BE0F-13E357B922D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monorail.commands", "monorail.commands\monorail.commands.csproj", "{C913031C-E224-46F5-84FC-C6AA964A5E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EBF2094-C8AB-4495-964E-B4A20136E382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBF2094-C8AB-4495-964E-B4A20136E382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBF2094-C8AB-4495-964E-B4A20136E382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBF2094-C8AB-4495-964E-B4A20136E382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C1D419-CC74-4E85-BE0F-13E357B922D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C1D419-CC74-4E85-BE0F-13E357B922D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C1D419-CC74-4E85-BE0F-13E357B922D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C1D419-CC74-4E85-BE0F-13E357B922D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C913031C-E224-46F5-84FC-C6AA964A5E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C913031C-E224-46F5-84FC-C6AA964A5E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C913031C-E224-46F5-84FC-C6AA964A5E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C913031C-E224-46F5-84FC-C6AA964A5E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+		OpenWrap.VisualStudioIntegration2010 = 1;Ensures OpenWrap initialization when a solution is opened.;OpenWrap Visual Studio Solution Add-in
+	EndGlobalSection
+EndGlobal
